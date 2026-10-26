@@ -1,0 +1,5 @@
+[
+  {"id":"personal","name":"自用","description":"节点、访问账户与订阅","plugins":["nodes","subscriptions"]},
+  {"id":"sharing","name":"分享","description":"节点、订阅、分享邀请与审计","plugins":["nodes","subscriptions","sharing","audit"]},
+  {"id":"business","name":"商业运营","description":"连接、套餐订单、支付、审计与用户服务","plugins":["nodes","subscriptions","commerce","payments","audit","support"]}
+]
