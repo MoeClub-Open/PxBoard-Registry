@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag, for example plugins-2026.10.26
+        description: Release tag, for example plugins-2026.10.27
         required: true
         type: string
       core_ref:
         description: PxBoard SDK revision
-        default: v0.3.2
+        default: v0.4.0
         type: string
       plugins_ref:
         description: Official plugins revision
