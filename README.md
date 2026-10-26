@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/MoeClub-Open/PxBoard-Registry/main/index.json
 
 源码与索引存放在此仓库，安装包放在该仓库的 GitHub Releases。主项目默认使用上述线上源，也可在模式安装页或插件中心注册其他源。
 
-当前源包含 12 个官方插件，要求 PxBoard 核心 0.3.0 或更新版本。第三方登录 `oauth` 为可选插件，不随使用模式或数据迁移插件自动安装；需要时在插件中心单独安装并配置。
+当前源包含 12 个官方插件，要求 PxBoard 核心 0.3.0 或更新版本，其中第三方登录 `oauth` 要求核心 0.3.2 或更新版本。`oauth` 为可选插件，不随使用模式或数据迁移插件自动安装；需要时在插件中心单独安装并配置。
 
 ```sh
 go run ./cmd/publish
@@ -42,11 +42,11 @@ go run ./cmd/publish -platform linux-amd64 -key-file release.key
 创建一个发布标签，将安装包的下载目录写入索引：
 
 ```sh
-go run ./cmd/publish -platform linux-amd64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.1
-go run ./cmd/publish -platform linux-arm64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.1
-go run ./cmd/publish -platform windows-amd64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.1
+go run ./cmd/publish -platform linux-amd64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.2
+go run ./cmd/publish -platform linux-arm64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.2
+go run ./cmd/publish -platform windows-amd64 -artifact-base https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.26.2
 ```
 
-使用 GitHub CLI 创建 Release，上传 `index.json` 和对应安装包，发布 Release 后将索引提交到 `main`。也可手动运行仓库的 **Publish plugin registry** 工作流，填写发布标签、核心 SDK 与官方插件的具体版本；核心 SDK 默认使用 `v0.3.0`。工作流会完成构建、上传、发布和索引更新，需要仓库的内容写入权限。
+使用 GitHub CLI 创建 Release，上传 `index.json` 和对应安装包，发布 Release 后将索引提交到 `main`。也可手动运行仓库的 **Publish plugin registry** 工作流，填写发布标签、核心 SDK 与官方插件的具体版本；核心 SDK 默认使用 `v0.3.2`。工作流会完成构建、上传、发布和索引更新，需要仓库的内容写入权限。
 
 每次公开发布使用新的标签，不覆盖已发布版本的安装包。只有二进制可以下载且索引已经提交后，才应把源交给面板使用。开发本地源时省略 `-artifact-base`，索引中的安装包路径将指向本地 `packages/`。
