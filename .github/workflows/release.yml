@@ -9,7 +9,7 @@ on:
         type: string
       core_ref:
         description: PxBoard SDK revision
-        default: v0.2.0
+        default: v0.3.0
         type: string
       plugins_ref:
         description: Official plugins revision
@@ -64,7 +64,8 @@ jobs:
           if ! gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --draft --title "$RELEASE_TAG" --notes "Official PxBoard plugins for Linux amd64, Linux arm64, and Windows amd64."
           fi
-          gh release upload "$RELEASE_TAG" index.json packages/* --repo "$GITHUB_REPOSITORY" --clobber
+          gh release upload "$RELEASE_TAG" index.json packages/* --repo "$GITHUB_REPOSITORY"
+          gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false
       - name: Update source index
         working-directory: PxBoard-Registry
         run: |
@@ -75,4 +76,3 @@ jobs:
             git commit -m "Publish ${RELEASE_TAG} plugin index"
             git push origin HEAD:main
           fi
-          gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false
