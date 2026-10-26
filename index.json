@@ -85,10 +85,10 @@
     {
       "id": "affiliate",
       "name": "推广返佣",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "apiVersion": "1.0",
-      "minCoreVersion": "0.4.0",
-      "description": "推荐关系、返佣规则、佣金结算和提现审批",
+      "minCoreVersion": "0.4.1",
+      "description": "推荐关系、返佣规则、自助转入余额和现金提现审批",
       "category": "商业",
       "author": "PxBoard",
       "dependencies": {
@@ -127,9 +127,9 @@
         }
       ],
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27/affiliate-1.0.0-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27/affiliate-1.0.0-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27/affiliate-1.0.0-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27.2/affiliate-1.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27.2/affiliate-1.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.27.2/affiliate-1.0.1-windows-amd64.exe"
       },
       "signatures": {}
     },
