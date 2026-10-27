@@ -1,5 +1,28 @@
 [
-  {"id":"personal","name":"自用","description":"品牌、节点、访问账户与订阅","plugins":["branding","nodes","subscriptions"]},
-  {"id":"sharing","name":"公益 / 分享","description":"用户注册、兑换码、节点、订阅与审计","plugins":["branding","registration","nodes","subscriptions","redeem","audit"]},
-  {"id":"business","name":"商业运营","description":"用户注册、套餐订单、支付、审计与用户服务","plugins":["branding","registration","nodes","subscriptions","commerce","payments","audit","support","notifications"]}
+  {
+    "id": "personal",
+    "name": "自用",
+    "description": "品牌、节点、访问账户与订阅",
+    "plugins": [
+      "branding",
+      "nodes",
+      "subscriptions"
+    ]
+  },
+  {
+    "id": "business",
+    "name": "商业运营",
+    "description": "用户注册、套餐订单、支付、审计与用户服务",
+    "plugins": [
+      "branding",
+      "registration",
+      "nodes",
+      "subscriptions",
+      "commerce",
+      "payments",
+      "audit",
+      "support",
+      "notifications"
+    ]
+  }
 ]

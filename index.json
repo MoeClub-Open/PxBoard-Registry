@@ -11,19 +11,6 @@
       ]
     },
     {
-      "description": "用户注册、兑换码、节点、订阅与审计",
-      "id": "sharing",
-      "name": "公益 / 分享",
-      "plugins": [
-        "branding",
-        "registration",
-        "nodes",
-        "subscriptions",
-        "redeem",
-        "audit"
-      ]
-    },
-    {
       "description": "用户注册、套餐订单、支付、审计与用户服务",
       "id": "business",
       "name": "商业运营",
@@ -96,7 +83,7 @@
       "buildRevision": 13,
       "category": "商业",
       "dependencies": {
-        "commerce": "\u003e=1!0.0.1"
+        "commerce": ">=1!0.0.1"
       },
       "description": "推荐关系、返佣规则、自助转入余额和现金提现审批",
       "events": [
@@ -149,7 +136,7 @@
       "buildRevision": 13,
       "category": "安全",
       "dependencies": {
-        "nodes": "\u003e=1!0.0.1"
+        "nodes": ">=1!0.0.1"
       },
       "description": "域名、关键词、正则、IP 网段和协议审计，支持阻断与暂停账户",
       "events": [
@@ -264,7 +251,7 @@
       "buildRevision": 13,
       "category": "商业",
       "dependencies": {
-        "access": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1"
       },
       "description": "套餐、续费、流量加油包、订单、余额和价格优惠",
       "events": [
@@ -353,10 +340,10 @@
       "buildRevision": 13,
       "category": "迁移",
       "dependencies": {
-        "access": "\u003e=1!0.0.1",
-        "commerce": "\u003e=1!0.0.1",
-        "nodes": "\u003e=1!0.0.1",
-        "subscriptions": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1",
+        "commerce": ">=1!0.0.1",
+        "nodes": ">=1!0.0.1",
+        "subscriptions": ">=1!0.0.1"
       },
       "description": "保留原密码、连接凭据、余额、流量和套餐信息，支持导入预览与冲突检查",
       "id": "import-sspanel",
@@ -403,10 +390,10 @@
       "buildRevision": 13,
       "category": "迁移",
       "dependencies": {
-        "access": "\u003e=1!0.0.1",
-        "commerce": "\u003e=1!0.0.1",
-        "nodes": "\u003e=1!0.0.1",
-        "subscriptions": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1",
+        "commerce": ">=1!0.0.1",
+        "nodes": ">=1!0.0.1",
+        "subscriptions": ">=1!0.0.1"
       },
       "description": "保留原密码、连接凭据、余额、流量和套餐信息，支持导入预览与冲突检查",
       "id": "import-v2board",
@@ -453,10 +440,10 @@
       "buildRevision": 13,
       "category": "迁移",
       "dependencies": {
-        "access": "\u003e=1!0.0.1",
-        "commerce": "\u003e=1!0.0.1",
-        "nodes": "\u003e=1!0.0.1",
-        "subscriptions": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1",
+        "commerce": ">=1!0.0.1",
+        "nodes": ">=1!0.0.1",
+        "subscriptions": ">=1!0.0.1"
       },
       "description": "保留原密码、连接凭据、余额、流量和套餐信息，支持导入预览与冲突检查",
       "id": "import-xboard",
@@ -506,7 +493,7 @@
       ],
       "category": "连接",
       "dependencies": {
-        "access": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1"
       },
       "description": "NodeRS 原生接入、节点配置、面板迁移、流量回报与状态监控",
       "homepage": "",
@@ -672,7 +659,7 @@
       "buildRevision": 13,
       "category": "商业",
       "dependencies": {
-        "commerce": "\u003e=1!0.0.1"
+        "commerce": ">=1!0.0.1"
       },
       "description": "Stripe 与易支付收银台、回调签名校验和支付流水",
       "events": [
@@ -716,7 +703,7 @@
       "buildRevision": 13,
       "category": "账户",
       "dependencies": {
-        "access": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1"
       },
       "description": "独立兑换码、访问权益与可选余额兑换",
       "events": [
@@ -858,8 +845,8 @@
       "buildRevision": 13,
       "category": "连接",
       "dependencies": {
-        "access": "\u003e=1!0.0.1",
-        "nodes": "\u003e=1!0.0.1"
+        "access": ">=1!0.0.1",
+        "nodes": ">=1!0.0.1"
       },
       "description": "Clash、sing-box 和通用订阅，支持链接重置和二维码",
       "homepage": "",
