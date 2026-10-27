@@ -22,7 +22,11 @@ func main() {
 	keyfile := flag.String("key-file", "", "可选 Ed25519 私钥文件")
 	generate := flag.String("generate-key", "", "生成私钥到指定文件，输出公钥")
 	artifactBase := flag.String("artifact-base", "", "安装包的公开 HTTPS 目录，例如 GitHub Release 下载地址")
+	buildRevision := flag.Int("build-revision", 0, "发布批次编号；同一批次的各平台必须一致")
 	flag.Parse()
+	if *buildRevision < 0 {
+		log.Fatal("发布批次编号不能为负数")
+	}
 	if *artifactBase != "" {
 		parsed, e := url.Parse(*artifactBase)
 		if e != nil || parsed.Scheme != "https" || parsed.Host == "" {
@@ -90,6 +94,7 @@ func main() {
 		}
 		id := entry["id"].(string)
 		version := entry["version"].(string)
+		entry["buildRevision"] = *buildRevision
 		name := id + "-" + version + "-" + *platform
 		if parts[0] == "windows" {
 			name += ".exe"
@@ -113,7 +118,7 @@ func main() {
 		}
 		artifacts := map[string]any{}
 		signatures := map[string]any{}
-		if old := byID[id]; old != nil && old["version"] == version {
+		if old := byID[id]; old != nil && old["version"] == version && old["versionEpoch"] == entry["versionEpoch"] && old["buildRevision"] == float64(*buildRevision) {
 			if v, ok := old["artifacts"].(map[string]any); ok {
 				artifacts = v
 			}
