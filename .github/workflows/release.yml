@@ -9,7 +9,7 @@ on:
         type: string
       core_ref:
         description: PxBoard SDK revision
-        default: v0.4.0
+        default: main
         type: string
       plugins_ref:
         description: Official plugins revision
