@@ -32,12 +32,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/access-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/access-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/access-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/access-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/access-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/access-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "连接",
       "dependencies": {},
       "description": "访问额度、到期限制、分组、周期流量重置和权益开通",
@@ -91,12 +91,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/affiliate-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/affiliate-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/affiliate-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/affiliate-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/affiliate-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/affiliate-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "商业",
       "dependencies": {
         "commerce": "\u003e=1!0.0.1"
@@ -144,12 +144,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/audit-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/audit-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/audit-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/audit-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/audit-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/audit-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "安全",
       "dependencies": {
         "nodes": "\u003e=1!0.0.1"
@@ -186,12 +186,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/branding-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/branding-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/branding-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/branding-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/branding-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/branding-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "界面",
       "dependencies": {},
       "description": "统一站点名称、Logo 和网站图标",
@@ -222,12 +222,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/captcha-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/captcha-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/captcha-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/captcha-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/captcha-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/captcha-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "capabilities": [
         "security.challenge",
         "security.challenge.subscription"
@@ -259,12 +259,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/commerce-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/commerce-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/commerce-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/commerce-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/commerce-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/commerce-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "商业",
       "dependencies": {
         "access": "\u003e=1!0.0.1"
@@ -372,12 +372,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-sspanel-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-sspanel-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-sspanel-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-sspanel-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-sspanel-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-sspanel-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "迁移",
       "dependencies": {
         "access": "\u003e=1!0.0.1",
@@ -434,12 +434,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-v2board-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-v2board-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-v2board-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-v2board-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-v2board-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-v2board-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "迁移",
       "dependencies": {
         "access": "\u003e=1!0.0.1",
@@ -513,12 +513,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-xboard-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-xboard-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/import-xboard-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-xboard-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-xboard-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/import-xboard-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "迁移",
       "dependencies": {
         "access": "\u003e=1!0.0.1",
@@ -592,12 +592,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/nodes-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/nodes-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/nodes-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/nodes-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/nodes-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/nodes-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "capabilities": [
         "portal.status"
       ],
@@ -689,18 +689,18 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/notifications-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/notifications-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/notifications-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/notifications-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/notifications-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/notifications-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "capabilities": [
         "auth.password-reset"
       ],
       "category": "服务",
       "dependencies": {},
-      "description": "邮件投递、密码找回和业务通知",
+      "description": "邮件模板、SMTP 投递、密码找回和业务通知",
       "events": [
         "order.fulfilled",
         "ticket.replied",
@@ -724,7 +724,8 @@
       ],
       "permissions": [
         "storage:own",
-        "users:read"
+        "users:read",
+        "call:branding"
       ],
       "signatures": {},
       "version": "0.0.1",
@@ -733,12 +734,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/oauth-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/oauth-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/oauth-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/oauth-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/oauth-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/oauth-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "账户",
       "dependencies": {},
       "description": "Google、GitHub、LinuxDO 登录及账号绑定",
@@ -781,12 +782,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/payments-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/payments-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/payments-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/payments-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/payments-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/payments-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "商业",
       "dependencies": {
         "commerce": "\u003e=1!0.0.1"
@@ -825,12 +826,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/redeem-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/redeem-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/redeem-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/redeem-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/redeem-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/redeem-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "账户",
       "dependencies": {
         "access": "\u003e=1!0.0.1"
@@ -910,9 +911,9 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/registration-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/registration-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/registration-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/registration-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/registration-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/registration-0.0.1-windows-amd64.exe"
       },
       "auth": [
         {
@@ -950,7 +951,7 @@
         }
       ],
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "capabilities": [
         "auth.registration"
       ],
@@ -989,12 +990,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/subscriptions-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/subscriptions-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/subscriptions-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/subscriptions-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/subscriptions-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/subscriptions-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "连接",
       "dependencies": {
         "access": "\u003e=1!0.0.1",
@@ -1057,12 +1058,12 @@
     {
       "apiVersion": "1.0",
       "artifacts": {
-        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/support-0.0.1-linux-amd64",
-        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/support-0.0.1-linux-arm64",
-        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.7/support-0.0.1-windows-amd64.exe"
+        "linux-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/support-0.0.1-linux-amd64",
+        "linux-arm64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/support-0.0.1-linux-arm64",
+        "windows-amd64": "https://github.com/MoeClub-Open/PxBoard-Registry/releases/download/plugins-2026.10.28.8/support-0.0.1-windows-amd64.exe"
       },
       "author": "PxBoard",
-      "buildRevision": 23,
+      "buildRevision": 24,
       "category": "服务",
       "dependencies": {},
       "description": "工单对话、公告和使用文档",
